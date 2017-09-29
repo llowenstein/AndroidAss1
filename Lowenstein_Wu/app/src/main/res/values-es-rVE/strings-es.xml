@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Convertidor de Peso</string>
+    <string name="title">Lowenstein_Wu, set 3A</string>
+    <string name="title_activity_output">Actvidad de Resultado</string>
+    <string name="choose_conversion">Escoja la conversion</string>
+    <string-array name="conversion">
+        <item>Kilogramos a Libras</item>
+        <item>Libras a Kilogramos</item>
+        <item>Kilogramos a Stone</item>
+        <item>Stone a Kilogramos</item>
+        <item>Gramos a Onza</item>
+        <item>Onza a Gramos</item>
+    </string-array>
+    <string name="input_text">Tu valor</string>
+    <string name="convert">Convierte</string>
+    <string name="to">A</string>
+    <string name="back">Atras</string>
+    <string name="originalText">Valor Original</string>
+    <string name="toText">Convertido</string>
+</resources>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Weight Converter</string>
+    <string name="title">Lowenstein_Wu, set 3A</string>
+    <string name="title_activity_output">OutputActivity</string>
+    <string name="choose_conversion">Choose conversion</string>
+    <string-array name="conversion">
+        <item>Kilograms to Pounds</item>
+        <item>Pounds to Kilograms</item>
+        <item>Kilograms to Stones</item>
+        <item>Stones to Kilograms</item>
+        <item>Grams to Ounces</item>
+        <item>Ounces to Grams</item>
+    </string-array>
+    <string name="input_text">Your value</string>
+    <string name="convert">Convert</string>
+    <string name="to">To</string>
+    <string name="back">Back</string>
+    <string name="originalText">Original value</string>
+    <string name="toText">Conversion</string>
+</resources>
