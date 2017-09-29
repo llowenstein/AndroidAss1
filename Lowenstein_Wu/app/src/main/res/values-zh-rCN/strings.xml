@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">重量转换</string>
+    <string name="title">开发者：鲁丽 吴波, 3A班</string>
+    <string name="title_activity_output">转换结果</string>
+    <string name="choose_conversion">选择转换单位</string>
+    <string-array name="conversion">
+        <item>公斤&#10132;磅</item>
+        <item>磅&#10132;公斤</item>
+        <item>公斤&#10132;英石</item>
+        <item>英石&#10132;公斤</item>
+        <item>克&#10132;盎司</item>
+        <item>盎司&#10132;克</item>
+    </string-array>
+    <string name="input_text">输入数值</string>
+    <string name="convert">转换</string>
+    <string name="to">到</string>
+    <string name="back">返回</string>
+    <string name="originalText">初始值</string>
+    <string name="toText">转换值</string>
+</resources>

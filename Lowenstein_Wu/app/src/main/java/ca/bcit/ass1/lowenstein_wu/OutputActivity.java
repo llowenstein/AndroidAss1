@@ -19,9 +19,7 @@ public class OutputActivity extends Activity {
     public static final double G_TO_O = 0.035274;
     public static final double O_TO_G = 28.3495;
 
-
-
-    private int userValue;
+    private double userValue;
     private int convertPos;
     private double converted;
 
@@ -50,7 +48,7 @@ public class OutputActivity extends Activity {
     }
 
     private void extractItems(Bundle bundle, Intent intent){
-        userValue = bundle.getInt("originalValue");
+        userValue = bundle.getDouble("originalValue");
 
         convertPos = bundle.getInt("position");
 
@@ -63,8 +61,7 @@ public class OutputActivity extends Activity {
         String[] titles = con.getResources().getStringArray(R.array.conversion);
         to.setText(titles[convertPos]);
     }
-
-
+    
     public void convertValue(){
         if(convertPos == 0){
             converted = userValue*K_TO_P;

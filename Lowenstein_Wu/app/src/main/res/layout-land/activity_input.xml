@@ -23,7 +23,8 @@
 
     <Spinner
         android:id="@+id/conversionOptions"
-        android:layout_width="0dp"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
         android:layout_height="40dp"
         android:layout_marginStart="251dp"
         android:entries="@array/conversion"
@@ -41,13 +42,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="@string/input_text"
-        android:inputType="number"
-        tools:layout_constraintRight_creator="1"
+        android:inputType="numberDecimal"
         tools:layout_constraintBottom_creator="1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="55dp"
+        android:layout_marginBottom="86dp"
         app:layout_constraintLeft_toLeftOf="parent" />
 
     <TextView
